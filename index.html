@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resistor Colour Code Calculator: bands, SMD codes and E-series</title>
+    <meta name="description" content="Free resistor colour code calculator: decode or encode 3, 4, 5 and 6 band resistors, read SMD codes (3/4-digit, EIA-96), and pick values from E6 to E192. Interactive drawing. Runs in your browser." />
+    <meta name="keywords" content="resistor color code, resistor colour code calculator, resistor bands, SMD resistor code, EIA-96, E96, E24, E12, preferred values, 5 band resistor, 6 band resistor" />
+    <meta name="author" content="Volodymyr Kopytsia" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#f4f5f7" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="canonical" href="https://hermes98761234.github.io/resistor-color-code/" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png" />
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <meta name="apple-mobile-web-app-title" content="Resistors" />
+
+    <!-- Open Graph / Facebook / Telegram / Slack -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Resistor Colour Code" />
+    <meta property="og:url" content="https://hermes98761234.github.io/resistor-color-code/" />
+    <meta property="og:title" content="Resistor colour code calculator" />
+    <meta property="og:description" content="Click the bands or type a value: 3-6 band resistors, SMD codes and E-series, in both directions." />
+    <meta property="og:image" content="https://hermes98761234.github.io/resistor-color-code/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="A resistor with yellow, violet, red and gold bands next to the headline: resistor colour code calculator." />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="uk_UA" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Resistor colour code calculator" />
+    <meta name="twitter:description" content="Colour bands, SMD codes and E-series values, both directions. Runs in your browser." />
+    <meta name="twitter:image" content="https://hermes98761234.github.io/resistor-color-code/og-image.png" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Resistor Colour Code",
+        "url": "https://hermes98761234.github.io/resistor-color-code/",
+        "description": "Decodes and encodes resistor colour bands (3 to 6), reads SMD resistor codes and picks values from the E6 to E192 series.",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires JavaScript",
+        "inLanguage": ["en", "uk"],
+        "isAccessibleForFree": true,
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "author": { "@type": "Person", "name": "Volodymyr Kopytsia" }
+      }
+    </script>
+  </head>
+  <body>
+    <noscript>This calculator needs JavaScript.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
